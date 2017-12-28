@@ -10,18 +10,18 @@
   "author": "Elisandro Silva",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.17.2",
-    "express": "^4.15.4",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
     "express-query-int": "^1.0.1",
     "lodash": "^4.17.4",
-    "mongoose": "^4.11.7",
+    "mongoose": "^4.13.8",
     "mongoose-paginate": "^5.0.3",
     "node-restful": "^0.2.6",
-    "pm2": "^2.6.1",
+    "pm2": "^2.9.1",
     "to": "^0.2.9",
     "update": "^0.7.4"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.14.3"
   }
 }
