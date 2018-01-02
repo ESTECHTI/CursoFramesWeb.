@@ -1,10 +1,11 @@
   (function() {
 angular.module('primeiraApp').controller('DashboardCtrl', [
   '$http',
+  'consts',
   DashboardController
 ])
 
-function DashboardController($http) {
+function DashboardController($http, consts) {
   const vm = this
   vm.getSummary = () => {
     const url = 'http://localhost:3003/api/billingSummary'
